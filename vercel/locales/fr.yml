@@ -1,0 +1,16 @@
+button:
+  about: À propos de
+  back: Retour
+  go: Essayer
+  home: Accueil
+  toggle_dark: Basculer en mode sombre
+  toggle_langs: Changer de langue
+intro:
+  desc: Exemple d'application Vite
+  dynamic-route: Démo de route dynamique
+  help: Qu'est-ce que je peux vous aider ?
+  hi: Salut, {name}!
+  welcome: Eh bien, merci d'avoir visité ce site ^_^
+  whats-your-name: Comment t'appelles-tu ?
+language: français(France)
+not-found: Page non trouvée
