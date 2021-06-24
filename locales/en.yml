@@ -1,0 +1,16 @@
+button:
+  about: About
+  back: Back
+  go: GO
+  home: Home
+  toggle_dark: Toggle dark mode
+  toggle_langs: Change languages
+intro:
+  desc: Well, Thanks For visiting this site ^_^
+  welcome: Well, Thanks For visiting this site ^_^
+  dynamic-route: Demo of dynamic route
+  help: What i can help for you ?
+  hi: Hi, {name}!
+  whats-your-name: What's your name?
+language: English
+not-found: Not found

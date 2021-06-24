@@ -1,0 +1,16 @@
+button:
+  about: これは？
+  back: 戻る
+  go: 進む
+  home: ホーム
+  toggle_dark: ダークモード切り替え
+  toggle_langs: 言語切り替え
+intro:
+  desc: 固執された Vite スターターテンプレート
+  dynamic-route: 動的ルートのデモ
+  help: 私はあなたのために何を助けることができますか？
+  hi: こんにちは、{name}!
+  welcome: さて、このサイトにアクセスしていただきありがとうございます^ _ ^
+  whats-your-name: 君の名は。
+language: 日本(Japan)
+not-found: 見つかりませんでした

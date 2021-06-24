@@ -1,0 +1,16 @@
+button:
+  about: Hakkımda
+  back: Geri
+  go: İLERİ
+  home: Anasayfa
+  toggle_dark: Karanlık modu değiştir
+  toggle_langs: Dilleri değiştir
+intro:
+  desc: Görüşlü Vite Başlangıç Şablonu
+  dynamic-route: Dinamik rota demosu
+  help: Senin için ne yardımcı olabilirim?
+  hi: Merhaba, {name}!
+  welcome: Bu siteyi ziyaret ettiğiniz için teşekkürler ^_^
+  whats-your-name: Adınız nedir?
+language: Türk(Turkish)
+not-found: Bulunamadı
