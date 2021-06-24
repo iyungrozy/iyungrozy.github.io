@@ -12,6 +12,7 @@ declare module 'vue' {
     CarbonDicomOverlay: typeof import('virtual:vite-icons/carbon/dicom-overlay')['default']
     CarbonLogoGithub: typeof import('virtual:vite-icons/carbon/logo-github')['default']
     CarbonPedestrian: typeof import('virtual:vite-icons/carbon/pedestrian')['default']
+    CarbonWarning: typeof import('virtual:vite-icons/carbon/warning')['default']
   }
 }
 

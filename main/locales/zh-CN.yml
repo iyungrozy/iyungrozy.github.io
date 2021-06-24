@@ -8,6 +8,7 @@ button:
 intro:
   desc: 固执己见的 Vite 项目模板
   dynamic-route: 动态路由演示
+  help: 我能帮你什么？
   hi: 你好，{name}
   whats-your-name: 输入你的名字
 not-found: 未找到页面
