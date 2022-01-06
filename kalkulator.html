@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>Ujicoba Form</title>
+    <script>
+        function hitung(angka1,angka2,operator)
+        {
+        var hasil;
+        if (operator==”tambah”){
+        hasil = parseInt(angka1) + parseInt(angka2);
+        }else if(operator==”kurang”){
+        hasil = parseInt(angka1) – parseInt(angka2);
+        }else if(operator==”kali”){
+        hasil = parseInt(angka1) * parseInt(angka2);
+        }else if(operator==”bagi”){
+        hasil = parseInt(angka1) / parseInt(angka2);
+        }
+        document.getElementById(“hasil”).innerHTML = “<b>” +hasil+ “</b>”;
+        return false;
+        }
+        </script>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>Masukkan Angka 1</td>
+                <td>:</td>
+                <td><input type="text" id="angka" name="angka" /></td>
+            </tr>
+            <tr>
+                <td>Masukkan Angka 2</td>
+                <td>:</td>
+                <td><input type="text" id="angka2" name="angka2" /></td>
+            </tr>
+            <tr>
+                <td>Operator</td>
+                <td>:</td>
+                <td>
+                    <select id="operator">
+                        <option value="tambah">+</option>
+                        <option value="kurang">-</option>
+                        <option value="bagi">:</option>
+                        <option value="kali">x</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="submit" id="hitung" name="Submit" value="Hitung" style="width: 100%;" /></td>
+               <br>
+                <div>- Hasil :</div><br>
+                <div id="hasil"></div></div>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
