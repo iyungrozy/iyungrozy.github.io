@@ -1,6 +1,7 @@
 <html>
 <head>
     <title>Ujicoba Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
     <script language="JavaScript" type="text/javascript">
@@ -38,22 +39,22 @@
             <tr>
                 <td>Masukkan Angka 1</td>
                 <td>:</td>
-                <td><input type="text" name="x" /></td>
+                <td><input class="form-control border border-secondary" type="text" name="x" /></td>
             </tr>
             <tr>
                 <td>Masukkan Angka 2</td>
                 <td>:</td>
-                <td><input type="text" name="y" /></td>
+                <td><input class="form-control border border-secondary" type="text" name="y" /></td>
             </tr>
             <tr>
                 <td>Hasil</td>
                 <td>:</td>
-                <td><input type="text" name="hasil" disabled="true" /></td>
+                <td><input class="form-control border border-secondary" type="text" name="hasil" disabled="true" /></td>
             <tr>
                 <td>Operator</td>
                 <td>:</td>
                 <td>
-                    <p><select name="opt"></p>
+                    <p><select class="form-control border border-secondary" name="opt"></p>
                         <option value="tambah">+</option>
                         <option value="kurang">-</option>
                         <option value="bagi">:</option>
@@ -62,10 +63,10 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="3"><input type="button" value="=" onClick="hitung()" style="width: 100%;" /></td>
+                <td colspan="3"><input  class="btn btn-danger form-control" type="button" value="SUBMIT" onClick="hitung()" style="width: 100%;" /></td>
             </tr>
             <tr>
-                <td colspan="3"><input type="button" value="CLEAR" onClick="resetForm()"  style="width: 100%;" /></td>
+                <td colspan="3"><input  class="btn btn-danger form-control" type="button" value="HAPUS" onClick="resetForm()"  style="width: 100%;" /></td>
             </tr>
         </table>
     </form>
