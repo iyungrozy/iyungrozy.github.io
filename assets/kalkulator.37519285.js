@@ -1,1 +1,0 @@
-import{x as e,o as s,b as o,d as a}from"./vendor.8ea85ebe.js";const c={class:"prose prose-sm m-auto text-left"},r=a("p",null,"this static calculator",-1),n=[r],u=[],h={setup(_,{expose:t}){return t({frontmatter:{meta:[]}}),e({meta:[]}),(l,p)=>(s(),o("div",c,n))}};export{h as default,u as meta};
