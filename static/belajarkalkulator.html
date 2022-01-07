@@ -10,10 +10,10 @@
         
         function hitung(){
         
-        var iyungkalku = document.form1;
-        var x=eval(iyungkalku.x.value);
-        var y=eval(iyungkalku.y.value);
-        var pil= iyungkalku.opt.value;
+        var myForm = document.form1;
+        var x=eval(myForm.x.value);
+        var y=eval(myForm.y.value);
+        var pil= myForm.opt.value;
         if (pil == "tambah") {
         var z = x + y;
          }else if (pil == "kurang") {
@@ -23,9 +23,9 @@
          } else if (pil == "bagi") {
         var z = x / y;
          }
-         iyungkalku.hasil.value = z;
-         iyungkalku.x.value = "";
-         iyungkalku.y.value = "";
+         myForm.hasil.value = z;
+         myForm.x.value = "";
+         myForm.y.value = "";
         }
         function resetForm(){
         document.form1.reset();
