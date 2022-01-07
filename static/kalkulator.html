@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>Ujicoba Form</title>
+</head>
+<body>
+    <script language="JavaScript" type="text/javascript">
+
+        //<!--
+        
+        function hitung(){
+        
+        var myForm = document.form1;
+        var x=eval(myForm.x.value);
+        var y=eval(myForm.y.value);
+        var pil= myForm.opt.value;
+        if (pil == "tambah") {
+        var z = x + y;
+         }else if (pil == "kurang") {
+        var z = x - y;
+         } else if (pil == "kali") {
+        var z = x * y;
+         } else if (pil == "bagi") {
+        var z = x / y;
+         }
+         myForm.hasil.value = z;
+         myForm.x.value = "";
+         myForm.y.value = "";
+        }
+        function resetForm(){
+        document.form1.reset();
+        }
+        
+        //-->
+        
+        </script>
+    <form name="form1" action="#">
+        <table>
+            <tr>
+                <td>Masukkan Angka 1</td>
+                <td>:</td>
+                <td><input type="text" name="x" /></td>
+            </tr>
+            <tr>
+                <td>Masukkan Angka 2</td>
+                <td>:</td>
+                <td><input type="text" name="y" /></td>
+            </tr>
+            <tr>
+                <td>Hasil</td>
+                <td>:</td>
+                <td><input type="text" name="hasil" disabled="true" /></td>
+            <tr>
+                <td>Operator</td>
+                <td>:</td>
+                <td>
+                    <p><select name="opt"></p>
+                        <option value="tambah">+</option>
+                        <option value="kurang">-</option>
+                        <option value="bagi">:</option>
+                        <option value="kali">x</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="button" value="=" onClick="hitung()" style="width: 100%;" /></td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="button" value="CLEAR" onClick="resetForm()"  style="width: 100%;" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
