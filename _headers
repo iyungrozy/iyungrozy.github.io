@@ -1,2 +1,2 @@
 /assets/*
-  Cache-Control: no-cache
+  Cache-Control: max-age=3600
